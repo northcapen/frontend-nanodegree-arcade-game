@@ -1,6 +1,6 @@
 // Enemies our player must avoid
-var CELL_WIDTH = 101;
-var CELL_HEIGHT = 83;
+const CELL_WIDTH = 101;
+const CELL_HEIGHT = 83;
 
 var Enemy = function(row, speedFactor) {
     // Variables applied to each of our instances go here,
