@@ -66,7 +66,7 @@ Player.prototype.handleInput = function(direction) {
        this.x += CELL_WIDTH;
     } else if (direction == 'up' && this.y > 0) {
        this.y -= CELL_HEIGHT;
-    } else if (direction == 'down' && this.y < 5*CELL_HEIGHT) {
+    } else if (direction == 'down' && this.y < 4*CELL_HEIGHT) {
         this.y += CELL_HEIGHT;
     }
 
